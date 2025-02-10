@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- use under scroe for space -->
+         <!-- value to fix the value in the form -->
+        <lable for ="usn">USN:</lable>
+        <input type="text" name="usn"id="usn"  value="4NI23CI255" readonly><br><br>
+        <lable for ="disabled example">USN2:</lable>
+        <input type="text" name="usn2"id="usn2"  value="4NI23CI2b5" disabled><br><br>
+        <lable for ="first_name">First Name:</lable>
+        <input type="text" name="first_name"id="first_name" placeholder="Enter your first name" required maxlength="25"><br><br>
+        <lable for ="middle_name">Middle Name:</lable>
+        <input type="text" name="middle_name"id="middle_name" placeholder="enter your middle name"><br><br>
+        <lable for ="last_name">Last Name:</lable>
+        <input type="text" name="last_name"id="last_name"placeholder="enter your last name"><br><br>
+        <!-- use br for next line -->
+         <lable for ="email">Email:</lable>
+         <input type="email" name="email"id="email_id=" placeholder="enter your email"><br><br>
+          <!-- use ctrl+D to get cursor on same word to change together  -->
+         <lable for ="age">Age:</lable>
+         <input type="number" name="age"id="age=" placeholder="enter your age" min ="18" max="100"><br><br>
+         <lable for ="phone">Phone number:</lable>
+         <input type="tel" name="phone"id="phone=" placeholder="enter your phone number "><br><br>
+         <!-- attributes are written within the tags -->
+         <lable for ="password">Password:</lable>
+         <input type="password" name="password"id="password="placeholder="enter your password"><br><br>
+         <lable for ="dob">DOB:</lable>
+         <input type="date" name="dob"id="dob=" min =1995-01-01  max = 2025-02-10><br><br>
+         <!-- format of min max of date year-month-date -->
+<!-- you wanna select multiple line alt+click on desired line -->
+   <label for ="address"> Address: </label>
+    <textarea name="address" id="address" rows="10" cols="50"> </textarea><br><br>
+     <!-- radio select any one -->
+    <label for ="gender"> Gender: </label>
+     
+     <input type ="radio" name="gender"id="male">
+     <label for ="male"> Male</label>
+     
+     <input type ="radio" name="gender"id="female">
+     <label for ="gender"> Female </label>
+     
+     <input type ="radio" name="gender"id="other">
+     <label for ="gender"> Other </label><br><br>
+
+<!-- checkbox select multiple option -->
+     <label for="Subjects"> Subjects</label>
+     <input type="checkbox"name="chemistry" id="chemistry">
+     <label for="chemistry "> Chemistry</label>
+     <input type="checkbox"name="physics" id="physics">
+     <label for="physics"> physics</label>
+     <input type="checkbox"name="mathematics" id="mathematics">
+     <label for="Mathematics"> Mathematics</label><br><br>
+
+<!-- dropdown -->
+     <label for="states"> states</label>
+     <select name="state" id="state">
+        <option value ="KA">Karnataka</option>
+        <option value ="TN">Tamil Nadu</option>
+        <option value ="TS">Telangana</option>
+        <option value ="KL">Kerala</option>
+        <option value ="MH">Maharashtra</option>
+     </select><br><br>
+
+     <!-- choose File -->
+      <!-- multiple for uploading multiple files -->
+       <!-- accept="image/* to select only images " -->
+     <label for="photo">Upload photo</label>
+     <input type="file"name="photo" id="photo" multiple accept ="image/*"><br><br>
+     <!-- /* is for everything -->
+     <label for="pdf">Upload pdf</label>
+     <input type="file"name="pdf" id="pdf" multiple accept =".pdf,docx"><br><br>
+
+        <input type="submit"value="Submit">
+
+ 
+    </form>
+    
+</body>
+</html>
