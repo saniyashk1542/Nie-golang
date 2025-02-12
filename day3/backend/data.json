@@ -1,0 +1,11 @@
+[
+ {
+  "id": "1",
+  "brand": "Toyota Innova",
+  "number": "AJ-1551",
+  "type": "XUV",
+  "incoming": "09:00 AM",
+  "outgoing": "02:00 PM",
+  "slot": "B-1"
+ }
+]
