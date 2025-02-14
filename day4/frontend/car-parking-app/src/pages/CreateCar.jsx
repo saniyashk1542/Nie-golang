@@ -48,11 +48,12 @@ const CreateCar = () => {
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Car Type</label>
-                    <select name="type" className="form-select" value={car.type} onChange={handleChange}>
+                    <input type="text" name="type" className="form-control" value={car.type} onChange={handleChange} required />
+                    {/* <select name="type" className="form-select" value={car.type} onChange={handleChange}>
                         <option>SUV</option>
                         <option>Sedan</option>
                         <option>Hatchback</option>
-                    </select>
+                    </select> */}
                 </div>
                 <div className="mb-3">
                     <label className="form-label">Incoming Time</label>
